@@ -1,0 +1,48 @@
+@import "vars";
+.blog {
+    margin-bottom: 85px;
+
+    &__title {
+        padding-top: 30px;
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        text-transform: capitalize;
+        color: #DC0000;
+    }
+
+    &__autor {
+        padding-top: 30px;
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: capitalize;
+        color: #333333;
+    }
+
+    &__descr {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: capitalize;
+        color: #9A9A9A;
+    }
+
+    &__btn {
+        font-family: $secondary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #333333;
+
+    }
+}
+
